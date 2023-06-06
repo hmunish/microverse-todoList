@@ -1,2 +1,1 @@
-import './style.css'
-console.log('Test');
+import './style.css';
