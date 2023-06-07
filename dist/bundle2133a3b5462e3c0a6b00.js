@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* Global Styles */\r\n\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    font-family: sans-serif;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://microverse-todolist/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* Global Styles */\r\n\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n    font-family: sans-serif;\r\n    font-weight: 100;\r\n}\r\n\r\ni{\r\n    color: gray;\r\n    cursor: pointer;\r\n}\r\n\r\nmain{\r\n    width: 100%;\r\n    min-height: 100vh;\r\n    padding: 25px 0;\r\n    background-color: #ebebeb;\r\n}\r\n\r\n.todo-app{\r\n    width: 90%;\r\n    margin: auto;\r\n    box-shadow: 0 0 7px gray;\r\n    background-color: #ffffff;\r\n}\r\n\r\n.task-board{\r\n    width: 100%;\r\n    list-style: none;\r\n}\r\n\r\n.task-board > li{\r\n    padding: 20px;\r\n    border-bottom: 1px solid #ebebeb;\r\n}\r\n\r\n.task-title{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\nli.task-list{\r\n    padding: 0 20px;\r\n}\r\n\r\n.task-list-group{\r\n    list-style: none;\r\n}\r\n\r\nli.tasks{\r\n    padding: 20px 0;\r\n    font-size: 1.17rem;\r\n    border-bottom: 1px solid #ebebeb;\r\n    cursor: move;\r\n}\r\n\r\nli.tasks > input{\r\n    margin-right: 10px;\r\n}\r\n\r\nli.tasks > i{\r\n    float: right;\r\n}\r\n\r\nli.add-task{\r\n    padding: 10px 20px;\r\n}\r\n\r\n.add-task > form{\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n.add-task input{\r\n    padding: 10px 0;\r\n    border: none;\r\n    background: none;\r\n}\r\n\r\n.add-task input[type='text']{\r\n    flex-basis: 90%;\r\n    font-style: italic;\r\n    font-size: 1.17rem;\r\n    outline: none;\r\n}\r\n\r\n.clear-list{\r\n    background-color: #ebebeb;\r\n    color: gray;\r\n    font-size: 1.17rem;\r\n    text-align: center;\r\n    cursor: pointer;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://microverse-todolist/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,37 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n//# sourceURL=webpack://microverse-todolist/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _modules_tasksMethods_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/tasksMethods.js */ \"./src/modules/tasksMethods.js\");\n\n\n\nconst app = new _modules_tasksMethods_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\n\napp.loadTasks();\n\n//# sourceURL=webpack://microverse-todolist/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/modules/domElements.js":
+/*!************************************!*\
+  !*** ./src/modules/domElements.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   taskList: () => (/* binding */ taskList)\n/* harmony export */ });\nconst taskList = document.querySelector('.task-list-group');\n\n//# sourceURL=webpack://microverse-todolist/./src/modules/domElements.js?");
+
+/***/ }),
+
+/***/ "./src/modules/tasksData.js":
+/*!**********************************!*\
+  !*** ./src/modules/tasksData.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst tasksData = [\r\n    {description: 'wash the dishes', completed: false, index: 1},\r\n    {description: 'complete To Do list project', completed: true, index: 2},\r\n]\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (tasksData);\n\n//# sourceURL=webpack://microverse-todolist/./src/modules/tasksData.js?");
+
+/***/ }),
+
+/***/ "./src/modules/tasksMethods.js":
+/*!*************************************!*\
+  !*** ./src/modules/tasksMethods.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ TaskList)\n/* harmony export */ });\n/* harmony import */ var _domElements_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./domElements.js */ \"./src/modules/domElements.js\");\n/* harmony import */ var _tasksData_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tasksData.js */ \"./src/modules/tasksData.js\");\n\r\n\r\n\r\nclass TaskList{\r\n    constructor(){\r\n        \r\n    }\r\n\r\n    loadTasks(){\r\n        let liHtml = '';\r\n        _tasksData_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].forEach((e)=>{\r\n            liHtml += `<li class=\"tasks\"><input type=\"checkbox\" ${e.completed ? 'checked' : ''} value=\"${e.description}\">${e.description}<i class=\"fa fa-ellipsis-v\"></i></li>`\r\n        })\r\n        _domElements_js__WEBPACK_IMPORTED_MODULE_0__.taskList.innerHTML = liHtml;\r\n    }\r\n}\n\n//# sourceURL=webpack://microverse-todolist/./src/modules/tasksMethods.js?");
 
 /***/ })
 
