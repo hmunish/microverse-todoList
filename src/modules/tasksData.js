@@ -1,6 +1,4 @@
-const tasksData = [
-  { description: 'wash the dishes', completed: false, index: 1 },
-  { description: 'complete To Do list project', completed: true, index: 2 },
-];
+const storedTasks = localStorage.getItem('todoTasks');
+const tasksData = storedTasks !== null ? JSON.parse(storedTasks) : [];
 
 export default tasksData;

@@ -18,14 +18,16 @@
                     <i class="fa fa-refresh"></i>
                 </li>
                 <li class="add-task">
-                    <form>
-                        <input type="text" placeholder="Add your list">
-                        <i class="fa fa-sign-in"></i>
+                    <form class="add-task-form">
+                        <input type="text" placeholder="Add your list" name="taskDescp" required>
+                        <button type="submit" class="add-task-btn">
+                            <i class="fa fa-sign-in"></i>
+                        </button>
                     </form>
                 </li>
                 <li class="task-list">
                     <ul class="task-list-group">
-                        <li class="tasks"><input type="checkbox" value="shopping">Shopping <i class="fa fa-ellipsis-v"></i></li>
+                        <!-- Tasks will be rendered by javascript -->
                     </ul>
                 </li>
                 <li class="clear-list">Clear all Completed</li>
