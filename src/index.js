@@ -26,3 +26,12 @@ taskList.addEventListener('click', (e) => {
     app.deleteTask(e.target.parentElement);
   }
 });
+
+// Task checkbox change event
+
+taskList.addEventListener('change', (e)=>{
+    if(e.target.tagName === 'INPUT'){
+        e.target.nextSibling.classList.toggle('stk-tru');
+        app.updateTaskStatus(Number(e.target.parentElement.getAttribute('data-index')));
+    }
+})

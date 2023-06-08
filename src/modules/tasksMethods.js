@@ -102,4 +102,14 @@ export default class TaskList {
     const tmp = JSON.stringify(this.data);
     localStorage.setItem('todoTasks', tmp);
   }
+
+  // Update tasks complete status
+  updateTaskStatus(ind){
+    for(let i = 0; i < this.data.length; i++){
+      if(this.data[i].index === ind){
+        this.data[i].completed = !this.data[i].completed;
+        break;
+      }
+    }
+  }
 }
