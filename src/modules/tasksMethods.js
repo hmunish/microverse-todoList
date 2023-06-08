@@ -9,7 +9,7 @@ export default class TaskList {
   loadTasks() {
     let liHtml = '';
     this.data.forEach((e) => {
-      liHtml += `<li class="tasks" data-index=${e.index}><input type="checkbox" ${e.completed ? 'checked' : ''} value="${e.description}"><p class="task-description">${e.description}</p><i class="fa fa-ellipsis-v edit-task-btn"></i><i class="fa fa-trash delete-task-btn dsp-none"></i></li>`;
+      liHtml += `<li class="tasks" data-index=${e.index}><input type="checkbox" ${e.completed ? 'checked' : ''} value="${e.description}"><p class="task-description ${e.completed ? 'stk-tru' : ''}">${e.description}</p><i class="fa fa-ellipsis-v edit-task-btn"></i><i class="fa fa-trash delete-task-btn dsp-none"></i></li>`;
     });
     taskList.innerHTML = liHtml;
   }
@@ -111,6 +111,8 @@ export default class TaskList {
         break;
       }
     }
+    const tmp = JSON.stringify(this.data);
+    localStorage.setItem('todoTasks', tmp);
   }
 
   // Clear completed task from the list
