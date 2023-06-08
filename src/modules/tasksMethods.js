@@ -104,12 +104,29 @@ export default class TaskList {
   }
 
   // Update tasks complete status
-  updateTaskStatus(ind){
-    for(let i = 0; i < this.data.length; i++){
-      if(this.data[i].index === ind){
+  updateTaskStatus(ind) {
+    for (let i = 0; i < this.data.length; i += 1) {
+      if (this.data[i].index === ind) {
         this.data[i].completed = !this.data[i].completed;
         break;
       }
     }
+  }
+
+  // Clear completed task from the list
+  clearCompletedTask() {
+    this.data = this.data.filter((e) => !e.completed);
+
+    // Updating index of data array
+    for (let i = 0; i < this.data.length; i += 1) {
+      this.data[i].index = i + 1;
+    }
+
+    // Updating local storage
+    const tmp = JSON.stringify(this.data);
+    localStorage.setItem('todoTasks', tmp);
+
+    // Updating user interface
+    this.loadTasks();
   }
 }

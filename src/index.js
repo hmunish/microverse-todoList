@@ -1,7 +1,7 @@
 import './style.css';
 import TaskList from './modules/tasksMethods.js';
 import {
-  taskList, addTaskForm,
+  taskList, addTaskForm, clearList,
 } from './modules/domElements.js';
 
 const app = new TaskList();
@@ -29,9 +29,15 @@ taskList.addEventListener('click', (e) => {
 
 // Task checkbox change event
 
-taskList.addEventListener('change', (e)=>{
-    if(e.target.tagName === 'INPUT'){
-        e.target.nextSibling.classList.toggle('stk-tru');
-        app.updateTaskStatus(Number(e.target.parentElement.getAttribute('data-index')));
-    }
-})
+taskList.addEventListener('change', (e) => {
+  if (e.target.tagName === 'INPUT') {
+    e.target.nextSibling.classList.toggle('stk-tru');
+    app.updateTaskStatus(Number(e.target.parentElement.getAttribute('data-index')));
+  }
+});
+
+// Clear list event listener
+
+clearList.addEventListener('click', () => {
+  app.clearCompletedTask();
+});
