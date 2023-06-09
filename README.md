@@ -90,7 +90,7 @@ For more information on the importance of a professional README for your reposit
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://hmunish.github.io/microverse-todoList/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
