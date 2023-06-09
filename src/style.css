@@ -17,6 +17,11 @@ i {
   display: none;
 }
 
+.stk-tru {
+  color: gray;
+  text-decoration: line-through;
+}
+
 main {
   width: 100%;
   min-height: 100vh;
